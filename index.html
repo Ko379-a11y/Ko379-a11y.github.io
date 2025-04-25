@@ -1,48 +1,49 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <title>Recipe Diary</title>
-    <meta name="description" content="テキストテキストテキストテキストテキストテキストテキストテキスト">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="img/favicon.ico">
-    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>山田 太郎</h1>
+    <p>フルスタックエンジニア | 好奇心の塊</p>
+  </header>
 
-  <body>
-    <main>
-      <div id="mainvisual">
-        <img src="img/mainvisual.jpg" alt="">
-      </div>
+  <section class="about">
+    <h2>自己紹介</h2>
+    <p>
+      福岡を拠点に活動するエンジニア。大学でセキュリティを学び、現在はPythonやWebアプリ開発に熱中中。
+      誰かの笑顔をつくるものづくりがモットーです。
+    </p>
+  </section>
 
-      <div class="text">
-        <h1 class="site-title">Recipe Diary</h1>
-        <p>
-          日々の料理レシピをまとめています。<br>
-          和食や洋食、中華、お菓子までいろいろな料理レシピをアップしていますので、<br>
-          みなさんの献立にお役立てくださいね！
-        </p>
-      </div>
+  <section class="works">
+    <h2>制作物</h2>
+    <ul>
+      <li>
+        <strong>株取引シミュレーター</strong><br />
+        Pygameを使って作成した株取引風のゲームアプリ。
+        <a href="#">GitHubで見る</a>
+      </li>
+      <li>
+        <strong>空き家予測AI</strong><br />
+        北九州市の空き家データを分析・可視化。AIで10年後を予測。
+        <a href="#">GitHubで見る</a>
+      </li>
+    </ul>
+  </section>
 
-      <ul class="flex">
-        <li><img src="img/recipe1.jpg" alt=""></li>
-        <li><img src="img/recipe2.jpg" alt=""></li>
-        <li><img src="img/recipe3.jpg" alt=""></li>
-      </ul>
+  <section class="contact">
+    <h2>連絡先</h2>
+    <p>Email: <a href="mailto:example@example.com">example@example.com</a></p>
+    <p>GitHub: <a href="https://github.com/your-username" target="_blank">@your-username</a></p>
+  </section>
 
-      <div class="text">
-        <a class="btn" href="#">レシピ一覧を見る</a>
-      </div>
-    </main>
-
-    <footer id="footer">
-      <ul class="sns">
-        <li><a href="#">Instagram</a></li>
-        <li><a href="#">Twitter</a></li>
-        <li><a href="#">Facebook</a></li>
-      </ul>
-      <p>&copy; 2021 Recipe Diary</p>
-    </footer>
-  </body>
+  <footer>
+    <p>&copy; 2025 山田 太郎</p>
+  </footer>
+</body>
 </html>
